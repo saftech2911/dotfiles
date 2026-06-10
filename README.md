@@ -5,7 +5,7 @@ Dotfile folder path in my Unix systems: `~/dotfiles`
 
 My **explicit, manual** modifications for each file ***only*** are listed under the file headers.
 
-# Bash Customizations
+# Bash
 Dotfiles necessary for bash only:
 | File name | Path in the repo (SOURCE) | Default Path (TARGET) |
 |:-----------:|:---------------------------:|:-----------------------:|
@@ -28,4 +28,17 @@ Dotfiles necessary for bash only:
     - `pyenv` - python version manager
     - `starship` - runs every prompt for prompt customization
     - `fzf` - fuzzy finder for Reverse-i-search and others (This changes the `Ctrl + R` behavior)
+
+# Starship - prompt customizer
+Dotfiles necessary for starship:
+| File name | Path in the repo (SOURCE) | Default Path (TARGET) |
+|:-----------:|:---------------------------:|:-----------------------:|
+|`starship.toml`  | `./starship.toml`                   |`~/.config/starship.toml`|
+
+## `starship.toml`
+**Last modified:** ***June 10, 2025***
+- Preset currently in use: `gruvbox-rainbow`
+- Changed time format from `%R` (24 hr) to traditional `%I:%M %p` (12 hr with AM/PM)
+- newline in prompt removed
+
 
