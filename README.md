@@ -12,7 +12,7 @@ Dotfiles necessary for bash only:
 |`.bashrc`  | `./.bashrc`                   |`~/.bashrc`|
 
 ## `.bashrc`
-**Last modified:** ***June 10, 2025***
+**Last modified:** ***June 10, 2026***
 
 1. Aliases added:
 
@@ -36,7 +36,7 @@ Dotfiles necessary for starship:
 |`starship.toml`  | `./starship.toml`                   |`~/.config/starship.toml`|
 
 ## `starship.toml`
-**Last modified:** ***June 10, 2025***
+**Last modified:** ***June 10, 2026***
 - Preset currently in use: `gruvbox-rainbow`
 - Changed time format from `%R` (24 hr) to traditional `%I:%M %p` (12 hr with AM/PM)
 - newline in prompt removed
@@ -48,7 +48,7 @@ Dotfiles necessary for git:
 |`.gitconfig`  | `./.gitconfig`                   |`~/.gitconfig`|
 
 ## `.gitconfig`
-**Last modified:** ***June 10, 2025***
+**Last modified:** ***June 10, 2026***
 - I did not change much. Only name and email added for `user`.
 
 
