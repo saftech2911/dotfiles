@@ -10,7 +10,7 @@ My **explicit, manual** modifications for each file ***only*** are listed under 
 
 To make this work, follow the steps **in order** since we need the `dotfiles` directory before removing and creating appropriate symlinks.
 1. Clone this repository: `git clone https://github.com/saftech2911/dotfiles.git` **at your home directory `~`**.
-2. Check if `symlink_gen.sh` is executable using `ls -l symlink_gen.sh`. If not, use `chmod u+x symling_gen.sh` to make it executable
+2. Check if `symlink_gen.sh` is executable using `ls -l symlink_gen.sh`. If not, use `chmod u+x symlink_gen.sh` to make it executable
 3. Run the script using `./symlink_gen.sh`. This will\
     a. Remove the existing config files at default directories. (Currently supported directories are listed below). 
     
