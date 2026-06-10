@@ -41,4 +41,14 @@ Dotfiles necessary for starship:
 - Changed time format from `%R` (24 hr) to traditional `%I:%M %p` (12 hr with AM/PM)
 - newline in prompt removed
 
+# Git - VCS
+Dotfiles necessary for git:
+| File name | Path in the repo (SOURCE) | Default Path (TARGET) |
+|:-----------:|:---------------------------:|:-----------------------:|
+|`.gitconfig`  | `./.gitconfig`                   |`~/.gitconfig`|
+
+## `.gitconfig`
+**Last modified:** ***June 10, 2025***
+- I did not change much. Only name and email added for `user`.
+
 
