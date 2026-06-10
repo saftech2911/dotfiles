@@ -12,12 +12,13 @@ To make this work, follow the steps **in order** since we need the `dotfiles` di
 1. Clone this repository: `git clone https://github.com/saftech2911/dotfiles.git` **at your home directory `~`**.
 2. Check if `symlink_gen.sh` is executable using `ls -l symlink_gen.sh`. If not, use `chmod u+x symlink_gen.sh` to make it executable
 3. Run the script using `./symlink_gen.sh`. This will\
-    a. Remove the existing config files at default directories. (Currently supported directories are listed below). 
+    a. Remove the existing config files at default directories. (Currently supported directories are listed below).
+    b. Create symlinks at the original config file paths leading to the corresponding paths in the `~/dotfiles` directory so that programs can find your dotfiles correctly. 
     
 > [!CAUTION]
 > **NOTE:** **THIS REMOVES YOUR CONFIG FILES PERMANENTLY!** If you want to use your own configs, copy them into the dotfiles folder first correctly and modify the script if you add config files not in here now. **Let me know in `Issues` if you think others can benefit from it.**
 
-    b. Create symlinks at the original config file paths leading to the corresponding paths in the `~/dotfiles` directory so that programs can find your dotfiles correctly.
+    
 
 ## The script `symlink_gen.sh`
 **Last modified:** ***June 10, 2026***
