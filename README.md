@@ -57,7 +57,7 @@ Dotfiles necessary for bash only:
 Dotfiles necessary for starship:
 | File name | Path in the repo (SOURCE) | Default Path (TARGET) |
 |:-----------:|:---------------------------:|:-----------------------:|
-|`starship.toml`  | `./starship.toml`                   |`~/.config/starship.toml`|
+|`starship.toml`  | `./.config/starship.toml`                   |`~/.config/starship.toml`|
 
 ## `starship.toml`
 **Last modified:** ***June 10, 2026***
