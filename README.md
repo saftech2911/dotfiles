@@ -14,7 +14,7 @@ To make this work, follow the steps **in order** since we need the `dotfiles` di
 3. Run the script using `./symlink_gen.sh`. This will\
     a. Remove the existing config files at default directories. (Currently supported directories are listed below). 
     
-    > [!CAUTION]
+    > [!CAUTION]\
     > **NOTE:** **THIS REMOVES YOUR CONFIG FILES PERMANENTLY!** If you want to use your own configs, copy them into the dotfiles folder first correctly and modify the script if you add config files not in here now. **Let me know in `Issues` if you think others can benefit from it.**
 
     b. Create symlinks at the original config file paths leading to the corresponding paths in the `~/dotfiles` directory so that programs can find your dotfiles correctly.
@@ -63,7 +63,7 @@ Dotfiles necessary for starship:
 - Changed time format from `%R` (24 hr) to traditional `%I:%M %p` (12 hr with AM/PM)
 - newline in prompt removed
 
-> [!WARNING]
+> [!WARNING]\
 > Starship requires a Nerd Font. Before using Starship, **please install a Nerd Font from [this link](https://www.nerdfonts.com/font-downloads)**. I personally prefer the `JetBrainsMono Nerd Font` family.
 
 # Git - VCS
