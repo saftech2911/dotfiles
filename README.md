@@ -16,7 +16,7 @@ To make this work, follow the steps **in order** since we need the `dotfiles` di
     b. Create symlinks at the original config file paths leading to the corresponding paths in the `~/dotfiles` directory so that programs can find your dotfiles correctly. 
     
 > [!CAUTION]
-> **NOTE:** **THIS REMOVES YOUR CONFIG FILES PERMANENTLY!** If you want to use your own configs, copy them into the dotfiles folder first correctly and modify the script if you add config files not in here now. **Let me know in `Issues` if you think others can benefit from it.**
+> **THIS REMOVES YOUR CONFIG FILES PERMANENTLY!** If you want to use your own configs, copy them into the dotfiles folder first correctly and modify the script if you add config files not in here now. **Let me know in `Issues` if you think others can benefit from it.**
 
     
 
