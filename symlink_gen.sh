@@ -4,7 +4,7 @@ set -euo pipefail
 DOTFILE_ROOT="$HOME/dotfiles"
 
 declare -a TARGET_ARRAY
-TARGET_ARRAY=("$HOME/.bashrc" "$HOME/.config/starship.toml" "$HOME/.gitconfig")
+TARGET_ARRAY=("$HOME/.bashrc" "$HOME/.config/starship.toml" "$HOME/.gitconfig" "$HOME/.tmux.conf")
 
 for target_path in "${TARGET_ARRAY[@]}"; do
     #process the path to get the parent path and also the full path without the $HOME root
